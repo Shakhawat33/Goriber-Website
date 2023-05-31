@@ -333,9 +333,63 @@ span{
 footer{
     background-color: black !important;
     padding: 20px ;
-
 }
+
 footer p{
     text-align: center;
-    color: #fff;
+    color: #fff
 }
+
+
+/*---Mobile View*/
+
+
+@media (max-width:851px){
+    .logo{
+        left: 35px;
+    }
+    .seaction img{
+        height: 100px;
+    }
+    .button h1 {
+        letter-spacing: 3px;
+    }
+    .button h1, h2 {
+        font-family: Roboto;
+        font-weight: bold;
+        margin: -5px;
+        line-height: 26px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        margin-left: 200px;
+    }
+    .btn1{
+        margin-left: 200px;
+        width: 105px;
+        height: 34px;
+    }
+    .productsection {
+        width: 108%;
+    }
+    .about{
+        width: 100%;
+    }
+    .notifaction h1 {
+        font-size: 1rem;
+    }
+    .notificaioninput{
+        width:385px ;
+        height: 39px;
+        padding: 12px 19px;
+        margin-top: 24px ;
+        margin-left: 50px;
+    }
+   
+    hr{
+        width: 117%;
+    }
+    footer{
+        width: 108%;
+    }
+}
+
