@@ -346,10 +346,17 @@ footer p{
 
 @media (max-width:851px){
     .logo{
-        left: 35px;
+        left: 10px;
     }
     .seaction img{
         height: 100px;
+    }
+    .search {
+        position: fixed;
+        right: 42px;
+        top: 48px;
+        width: 145px;
+        height: 40px;
     }
     .button h1 {
         letter-spacing: 3px;
@@ -369,7 +376,7 @@ footer p{
         height: 34px;
     }
     .productsection {
-        width: 108%;
+        width: 107%;
     }
     .about{
         width: 100%;
